@@ -17,7 +17,7 @@ Basically just a copy-paste of my rentry page: Pixelated Pathways at: https://re
 > Unique Links: 1302
 > Created by *`Dietz`*
 > Message me on Discord @ %violet% dietz_r %%
-Last Updated:  March 13, 2024
+Last Updated:  May 25, 2024
 **VISIT the [MIRROR](https://courage-1984.github.io/pixelated-pathways/) ~ it's prettier!**
 **OR [MIRROR 2](https://pixelated-pathways.neocities.org/)**
 
@@ -54,6 +54,8 @@ Last Updated:  March 13, 2024
 - [REASONED-ORG](https://www.reasoned.org/dir/index.html) ** - your gateway to wisdom on the web - A research directory focusing on the study of philosophy, psychology, and theology.**
 
 - [Research Rabbit](https://www.researchrabbit.ai/) ** - Reimagine Research - We’re rethinking everything:  literature search, alerts, and more**
+
+- [Globe Explorer](https://explorer.globe.engineer/) ** - Globe Explorer**
 
 - []() ** - **
 
@@ -172,6 +174,7 @@ Offline Imaging & Optimization Guide   | https://rentry.co/ltsc_optimize
 Lyssa's weird rentry   | https://rentry.co/thecatonthefloor
 windowsbumhole   | https://rentry.co/windowsbumhole
 VirusTotal Scan Guide   | https://rentry.co/VTGuide
+FMHY Base64   | https://rentry.co/FMHYBase64
 cell   | cell
 
 ***
@@ -260,128 +263,281 @@ cell   | cell
 - [Free online network tools](https://centralops.net/co/) *traceroute, nslookup, dig, whois lookup, ping, etc.*
 - [Grabify](https://grabify.link/) *IP Logger & URL Shortener*
 - [IP Address Lookup](https://www.whatismyip.com/ip-address-lookup/) *IP Location Lookup For Any IP Address*
-- [Nmap Online Scanner]() *Highly customizable scanning of network hosts*
+- [Nmap Online Scanner](http://nmap.online-domain-tools.com/) *Highly customizable scanning of network hosts*
 - []() **
 
 ***
-### -> 🪟 Windows Optimization, Customization & Privacy <-
+### -> 🪟 Windows: Ricing, Privacy, Customization & Optimization <-
 
-!!! info
-    Windows privacy, security, performance, productivity and customization. Windows settings, features and utilities. Block spying, tracking and telemetry on Windows. Remove Bloatware and monitor your Windows. become a SUPER-USER!
+**Windows Ricing, Privacy, Customization & Optimization. Windows security, performance, productivity and customization.**
 
-#### **🍙 Ricing**
-- [Ricing Guide](https://www.ricing.chloechantelle.com/) *Making visual improvements and customization to your desktop and/or phone that can simplify your desktop environment but (generally) are completely pointless.*
-- [Nanami-tan Github Repo](https://github.com/namazso/nanami-tan/) *Ricing resource and index of helpful links*
-- [Nanami-tan Github Page](https://namazso.github.io/nanami-tan/) *Win 7 Ricing resource and index of helpful links*
+> Improve on Windows settings, features and utilities. Install Themes, Icons, Cursors, Wallpapers & more! Block spying, tracking and telemetry on Windows. Remove Bloatware and monitor your Windows. Become a SUPER-USER!
 
-*the above 3 links may be a bit out-dated but can still be very useful and informative. A lot of the stuff in the Win 7 page can still be applied to Win 10*
+**Go check out this guide I made:** [Windows: Ricing, Privacy, Customization & Optimization](https://github.com/Courage-1984/Windows-Ricing-Privacy-Customization-Optimization)
 
-- [READ ME IF YOU HAVE NO IDEA WHAT YOU ARE DOING](https://pastebin.com/raw/mtgSWp42) *A journey through the thought process of an illiterate PC user.*
-- [FMHY Themes / Ricing](https://fmhy.net/system-tools#themes-ricing) *FMHY Themes / Ricing*
-- []() **
+***
 
-#### **🪟 My Ricing Recommendations Windows 10**
+!!! danger ‼️BEFORE DOING ANYTHING DO THIS FIRST:
+    Create a Bootable USB Recovery Drive for Windows 10, this is essebtial as you could use it to recover or troubleshoot your system in case something goes wrong. This guide covers Ricing, Debloating, Privacy, Custom & Optimization tweaks which all has the potential to maybe just break something. Though this should not happen so don't worry, these tweaks, scripts, software and etc have been tested and used by a lot! 
+	**[Create a Bootable USB Recovery Drive in Windows 10](https://www.tenforums.com/tutorials/4200-create-recovery-drive-windows-10-a.html)**
 
-**BEFORE DOING ANYTHING DO THIS FIRST:**
-- [Create a Bootable USB **Recovery Drive** in Windows 10](https://www.tenforums.com/tutorials/4200-create-recovery-drive-windows-10-a.html) *How to Create a Bootable USB Recovery Drive in Windows 10*
+!!! warning
+    **ALSO: Make a habit of creating System Restore Points often:** [How to Create a System Restore Point in Windows 10](https://www.tenforums.com/tutorials/4571-create-system-restore-point-windows-10-a.html)
+	**ALSO: Make a habit of creating Backups of you Registry often:** [Create a Backup of the Entire Windows Registry](https://techpp.com/2022/03/11/backup-and-restore-windows-registry-guide/#Method_2_Create_a_Backup_of_the_Entire_Windows_Registry)
 
-**NOTE:**
-**Make a habit of creating System Restore Points often when *Ricing* (Implementing the stuff in this section)**
-- [System Restore Point](https://www.tenforums.com/tutorials/4571-create-system-restore-point-windows-10-a.html) *How to Create a System Restore Point in Windows 10*
+!!! info My thinking for the general direction of this guide/repo is the following:    
+	1. First I'll start with the **debloating** and **privacy** stuff, after all it is ideal to have a nice clean system for the next
+	2. Then I will move on to somewhat a mixture of traditional **ricing** along with **tweaking** and **optimization**
+	3. And lastly I will recomend some general **software** to have
 
-**Windows Optimization:**
-- [Remove the language indicator](https://www.askvg.com/fix-input-indicator-icon-comes-back-in-taskbar-notification-area-after-restarting-windows/) *Permanently remove language indicator from the taskbar.*
-- [Fix search indexing](https://lifehacker.com/set-windows-10-to-search-all-file-contents-with-this-se-1733511735) *Start menu will search through files and file contents.*
-- [Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec#WindowsVersion=Windows_10) *Keyboard shortcuts are keys or combinations of keys that provide an alternative way to do something that you’d typically do with a mouse.*
-- [Keyboard shortcuts in Firefox](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly?redirectslug=Keyboard+shortcuts&redirectlocale=en-US) *Keyboard shortcuts - Perform common Firefox tasks quickly*
-- [Fix problems that block programs from being installed or removed](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) *The Program Install and Uninstall troubleshooter helps you automatically repair issues when you're blocked from installing or removing programs. It also fixes corrupted registry keys.*
-- [Custom Windows Icons](https://www.ricing.chloechantelle.com/#:~:text=damn%20skins%20available.-,icons,-Numix%20-%20Ported%20from) *Have a look at what is posted here. I really like the "Paper" icon set.*
-- [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil) *Install Programs, Tweaks, Fixes, and Updates*
-- [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows/) *The most powerful PowerShell module on GitHub for fine-tuning Windows 10 & Windows 11*
+!!! note 
+    This will not be a too in depth guide as **a lot** of the resoures I will provide has guides or steps whithin them or is just straight forward and instructions is not needed or is provided on their site.
+
+***
+
+#### **🪟 Windows**
+*some important and must have top level stuff for windows*
+
+##### 📁 Windows & Windows Files
+
+[MAS](https://massgrave.dev/) *Microsoft Activation Scripts: A Windows and Office activator, also get your Genuine Installation Media for Windows & Office here.*
+[TechBench](https://tb.rg-adguard.net/public.php) *Get your windows and office ISOs here. This project will no longer be updated. New project:*
+[List of files by Microsoft®](https://files.rg-adguard.net/) *List of files by Microsoft®*
+
+##### 🖥️ command-line shell
+
+[Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-fr&gl=FR) *The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL.*
+[PowerShell 7](https://www.howtogeek.com/663684/how-to-install-powershell-7-on-windows-10/) *PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language.*
+[WSL](https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command) *Windows Subsystem for Linux: Windows Subsystem for Linux is a feature of Windows that allows developers to run a Linux environment without the need for a separate virtual machine or dual booting.*
+[Hyper™](https://hyper.is/) *Terminal*
+
+##### 📦 Package Manager
+
+[winget](https://apps.microsoft.com/detail/9nblggh4nns1?rtc=1&hl=en-fr&gl=FR#activetab=pivot:overviewtab) *Windows Package Manager*
+[Chocolatey](https://chocolatey.org/) *The package manager for Windows*
+[Ninite](https://ninite.com/) *Install and Update All Your Programs at Once*
+[Python](https://www.python.org/downloads/) *Python is a programming language that lets you work quickly and integrate systems more effectively.*
+[pip](https://pip.pypa.io/en/stable/installation/) *pip is the package installer for Python. You can use it to install packages from the Python Package Index and other indexes.*
+
+***
+
+#### 🏎️ Quickies
+*things that you can decide if you want it or not and takes just a moment to implement*
+
+##### 🔑 Some Useful Registry Keys:
+- [How to Remove the Folders From “This PC” on Windows 10](https://github.com/Courage-1984/Remove-Folders-From-This-PC-Win10)
+- [Disable Windows Web Search in Start](https://github.com/Courage-1984/Disable-Windows-Web-Search-in-Start)
+- [How to Enable Windows Photo Viewer in Windows 10](https://github.com/Courage-1984/Enable-Windows-Photo-Viewer-Win10)
+- [Pin Files to Start on Windows 10](https://github.com/Courage-1984/Pin-Files-to-Start-Windows-10)
+- [Show more details in Details pane of File Explorer](https://github.com/Courage-1984/Show-more-details-in-Details-pane-of-File-Explorer)
+- [Add Take Ownership to Context Menu in Windows 10](https://github.com/Courage-1984/Add-Take-Ownership-to-Context-Menu)
+
+Lists of Reg Keys: 
+- [Registry Tweaks](https://www.ricing.chloechantelle.com/#advanced)
+- [Registry Editing](https://namazso.github.io/nanami-tan/#RegEdit)
+
+##### 🪛 Tweaks
+- [Windows God Mode Control Panel](https://github.com/Courage-1984/Windows-God-Mode-Control-Panel)
+- [How to ACTUALLY Change the Windows Default System Font](https://github.com/Courage-1984/Windows-Change-Default-System-Font)
+- [Remove the language indicator](https://www.askvg.com/fix-input-indicator-icon-comes-back-in-taskbar-notification-area-after-restarting-windows/) *Permanently remove language indicator from the taskbar*
+- [Fix search indexing](https://lifehacker.com/set-windows-10-to-search-all-file-contents-with-this-se-1733511735) *Start menu will search through files and file contents*
 - [WinSetView](https://github.com/LesFerch/WinSetView) *Globally Set Explorer Folder Views*
-- []() **
+- [How to Prevent Windows 10 or 11 From Automatically Downloading Updates](https://www.howtogeek.com/224471/how-to-prevent-windows-10-from-automatically-downloading-updates/)
+- [How to stop Windows 10 from automatically updating device drivers](https://forums.tomshardware.com/faq/how-to-stop-windows-10-from-automatically-updating-device-drivers.2398360/)
+- [Prevent Windows 10 from Automatically Restarting Your PC After Updating](https://lifehacker.com/prevent-windows-10-from-automatically-restarting-your-p-1723647582)
+- [Fix problems that block programs from being installed or removed](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) *The Program Install and Uninstall troubleshooter helps you automatically repair issues when you're blocked from installing or removing programs. It also fixes corrupted registry keys.*
 
-**Some useful Registry Keys:**
-- [Add Take Ownership to Context Menu](https://github.com/Courage-1984/Add-Take-Ownership-to-Context-Menu) *How to Add Take Ownership to Context Menu in Windows 10.*
-- [Show more details in Details pane of File Explorer](https://github.com/Courage-1984/Show-more-details-in-Details-pane-of-File-Explorer) *Show more details in Details pane of File Explorer*
-- [Pin Files to Start on Windows 10](https://github.com/Courage-1984/Pin-Files-to-Start-Windows-10) *Enable the ability to Pin Files to Start on Windows 10 through the context menu.*
-- [Enable Windows Photo Viewer in Windows 10](https://github.com/Courage-1984/Enable-Windows-Photo-Viewer-Win10) *How to Enable Windows Photo Viewer in Windows 10 and possibly set as default.*
-- [Disable Windows Web Search in Start](https://github.com/Courage-1984/Disable-Windows-Web-Search-in-Start) *Disable Windows Web Search Using a Registry Key*
-- [Remove the Folders From “This PC”](https://github.com/Courage-1984/Remove-Folders-From-This-PC-Win10) *How to Remove the Folders From “This PC” on Windows 10*
-- []() **
-
-**Windows Customization:**
-- [Microsoft PowerToys](https://github.com/microsoft/PowerToys) *Windows system utilities to maximize productivity*
-- [7+ Taskbar Tweaker](https://tweaker.ramensoftware.com/) *Customize the Windows taskbar with dozens of exclusive options. Adapt the taskbar to your workflow, not the other way around.*
-- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) *This project aims to enhance the working environment on Windows*
-- [OldNewExplorer](https://msfn.org/board/topic/170375-oldnewexplorer-119/) *OldNewExplorer is the Windows 10 (and Windows 8.1, and 8) shell extension / tweaker which can undo "improvements" to file browsing made in newer Windows version.*
-- [StartIsBack](https://startisback.com/) *Real start menu for Windows 8 and Windows 10. Start menu is back and it's better than ever. Get the most useful shell enhancement for Windows 10 now!*
-- [Mactype](https://www.dropbox.com/s/nyaxc8h1hb6lcx2/MacType.zip?e=2) *Better font rendering, includes version for W7 and W10 (also works on 8.1). Follow the instructions to install.*
-- [AutoHotkey](https://www.autohotkey.com/) *The ultimate automation scripting language for Windows.. AutoHotKey is a fantastic hotkey tool, and for ricing it can do a few very helpful jobs like making hotkeys to certain programs, tiling, removing taskbar/titlebar icons and hiding titlebars.*
-- [My custom AHK](https://github.com/Courage-1984/Custom-AutoHotkeys) *Some useful custom AHK. Read the Readme.*
-- [QTTabBar](http://qttabbar.wikidot.com/) *Adds a lot more functionality to Explorer, including tabs, hotkeys and alternative navigation panes.*
-- [Icaros](https://github.com/Xanashi/Icaros) *Icaros is a collection of lightweight, high quality, Windows Shell Extensions. Windows Explorer- thumbnails and properties for basically any file type.*
-- [MPC-BE](https://sourceforge.net/projects/mpcbe/) *Media Player Classic - BE is a free and open source audio and video player for Windows.*
-- [foobar2000](https://www.foobar2000.org/) *foobar2000 is an advanced freeware audio player for the Windows platform.*
-- [ClamAV](https://github.com/Cisco-Talos/clamav) *ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.*
-- [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/) *What is Windows Terminal?*
-- [Mac Mouse Pointer Guide](https://www.intowindows.com/download-mac-mouse-cursor-for-windows-10/) *How To Get Mac Mouse Pointer (Cursor) In Windows 10*
-- [macOS Sierra Retina cursors](https://www.deviantart.com/in-dolly/art/macOS-Sierra-Retina-cursors-650823654) *macOS Sierra Retina cursors*
-- [ElCapitan cursors](https://www.deviantart.com/in-dolly/art/Updated-ElCapitan-cursors-593804414) *Updated ElCapitan cursors*
-*ElCapitan cursors is smaller but the macOS Sierra Retina cursors is much cleaner!*
-- [Dracula](https://draculatheme.com/) *One theme. All platforms.*
-- [Discover Customization on DeviantArt](https://www.deviantart.com/topic/customization) *Download custom skins and assets to personalize your day-to-day tools and applications.*
-- []() **
-
-**Online Url and File Analyses:**
+##### 🦠 Online Url and File Analyses
 - [VirusTotal](https://www.virustotal.com/) *Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches*
 - [Hybrid Analysis](https://www.hybrid-analysis.com/) *Free Automated Malware Analysis Service. This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.*
 - [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan) *Understand the security, performance, technology, and network details of a URL with a publicly shareable report.*
 - [Jotti's malware scan](https://virusscan.jotti.org/) *Jotti's malware scan is a free service that lets you scan suspicious files with several anti-virus programs.*
 - [ANY-RUN](https://any.run/) *Interactive Online Malware Sandbox*
-- []() **
 
-**Windows Privacy:**
-- [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) *Free antispy tool for Windows 10 and 11*
-- [O&O AppBuster](https://www.oo-software.com/en/ooappbuster) *Bust Apps you do not want!*
-- [WPD](https://wpd.app/) *WPD is the most convenient way to configure various privacy settings in Windows*
+***
+
+#### 🧰 Debloating, Optimisation, Customisation & Privacy
+*This section will cover Debloating, Optimising & Tweaking your system along with some Privacy stuff.*
+
+!!! note
+    **This section will have somewhat of an order to it. My top recommadations will be listed first and all will follow in and order of what I suggest to use them.**
+
+##### 🌟 FIRST:
+
+🔥 [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil) *Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates*
+
+You can just run the following in your powershell:
+``` powershell
+  iwr -useb https://christitus.com/win | iex
+```
+
+✨ [SophiApp](https://github.com/Sophia-Community/SophiApp) *⚡ The most powerful open source tweaker on GitHub for fine-tuning Windows 10 & Windows 11*
+
+You can just run the following in your powershell:
+``` powershell
+  iwr app.sophia.team -useb | iex
+```
+
+📌 [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - ⚡ The most powerful PowerShell module on GitHub for fine-tuning Windows 10 & Windows 11
+
+**This is basically the same thing as the previous but it's the script and not an app. The script is a bit autonomous so I suggest rather using the app SophiApp**
+
+📌 [O&O AppBuster](https://www.oo-software.com/en/ooappbuster) *Bust Apps you do not want!*
+
+📌 [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) *Remove large amounts of unwanted applications quickly.*
+
+📌 [Revo Uninstaller](https://www.revouninstaller.com/) *Uninstall unwanted programs and their leftovers, quickly and easily!*
+
+> That basically covers it for the first section. With these tools you now should have a nice clean, debloated, optimised and fast system.
+
+##### 🌟 SECOND:
+
+🔥 [privacy is sexy](https://privacy.sexy/) *🔐 Enforce privacy & security best-practices on Windows, macOS and Linux.*
+
+✨ [Optimizer](https://github.com/hellzerg/optimizer) *The finest Windows Optimizer*
+
+📌 [Privatezilla](https://github.com/builtbybel/privatezilla#download) *👀👮🐢🔥Performs a privacy & security check of Windows 10*
+
+📌 [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) *Free antispy tool for Windows 10 and 11*
+
+> and that's the second part. You should now have some robust security, privacy, anti-telementary, anti-data-collection, anti-spying, and so one...
+
+##### 🌟 THIRD:
+
+- [WPD](https://wpd.app/) *WPD is the most convenient way to configure various privacy settings in Windows.*
 - [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) *Block spying and tracking on Windows*
-- [privatezilla](https://github.com/builtbybel/privatezilla#download) *Performs a privacy & security check of Windows 10*
-- [optimizer](https://github.com/hellzerg/optimizer) *The finest Windows Optimizer*
-- [Privacy is sexy](https://privacy.sexy/) *Enforce privacy & security on Windows, macOS and Linux*
-- [SophiApp](https://github.com/Sophia-Community/SophiApp) *The most powerful open source tweaker on GitHub for fine-tuning Windows 10 & Windows 11*
-- [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) *Remove large amounts of unwanted applications*
-- []() **
-**arkenfox:**
-- [arkenfox Github](https://github.com/arkenfox) *arkenfox Github user profile*
-- [arkenfox Home](https://github.com/arkenfox/user.js/wiki) *arkenfox user-js wiki*
-- [arkenfox Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) *arkenfox Extensions*
+- [MajorPrivacy](https://github.com/xanasoft/MajorPrivacy/) *Advanced Privacy Tool for Windows*
+- [Awesome Windows privacy](https://github.com/TemporalAgent7/awesome-windows-privacy?tab=readme-ov-file) *A list of awesome tools, documentation and scripts for better privacy on Microsoft Windows*
+- [Debloat Windows 10](https://github.com/W4RH4WK/Debloat-Windows-10) *A Collection of Scripts Which Disable / Remove Windows 10 Features and Apps*
+- [DisableWinTracking](https://github.com/bitlog2/DisableWinTracking?tab=readme-ov-file) *Uses some known methods that attempt to minimize tracking in Windows 10*
+- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater) *Script to remove Windows 10 bloatware.*
+- [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) *Windows 10 Privacy Guide*
+- [Comparison of Windows 10 Privacy tools](https://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/) *Comparison of Windows 10 Privacy tools*
 
-#### **🗂️ Misc**
-- [System Tools, Hardware Tools, Windows ISOs, Customization](https://fmhy.net/system-tools) *System Tools, Hardware Tools, Windows ISOs, Customization*
+> This was a short one. Items listed in this section is basically leftovers, ones that did not make it to the first and second section thus they are not neccecary if you used the ones in the first and second section.
+
+##### 🥈 Honorable Mentions
+
 - [Eylenburg's Tech Website](https://eylenburg.github.io/) *Detailed Comparisons of OS's, Browsers, Environments and Services*
-- [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) *A collection of utilities bringing back classic features to Windows.*
-- [KMS_VL_ALL_AIO](https://raw.githubusercontent.com/abbodi1406/KMS_VL_ALL_AIO/master/KMS_VL_ALL_AIO.cmd) *Right click this link and save as KMS_VL_ALL_AIO.cmd. The BEST windows and office activator.*
-- [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) *The Sysinternals Troubleshooting Utilities have been rolled up into a single Suite of tools*
-- [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) *Process Explorer shows you information about which handles and DLLs processes have opened or loaded*
-- [QuickMon](https://github.com/RudolfHenning/QuickMon) *QuickMon is a simple monitoring and alerting tool. It allows you to monitor and alert on various resources/services locally or remotely.*
-- [Winaero Tweaker](https://winaerotweaker.com/) *It is an all-in-one application that comes with dozens of options for fine-grained tuning of various Windows settings and features*
-- [Blackbird](https://www.getblackbird.net/) *Windows privacy, security and performance*
-- [QuickBoost](https://github.com/SanGraphic/QuickBoost) *Automated Windows 10 / 11 Tweaking Utility*
-- [Pegasun System Utilities](https://pegasun.com/system-utilities) *Maximize PC performance and battery life*
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) *A free and open source typeface for developers*
+- [System Tools, Hardware Tools, Windows ISOs, Customization](https://fmhy.net/system-tools) *System Tools, Hardware Tools, Windows ISOs, Customization*
 - [Couleur Tweak Tips](https://ctt.cx/) *Couleur Tweak Tips - a comprehensive aggregation of useful resources for enthusiasts looking to expand their toolchain of programs and adopt good practices to enhance the quality of life in daily computer use and video production.*
 - [CTT Wiki](https://github.com/couleur-tweak-tips/CTT) *Couleur Tweak Tips documentation hosted on GitHub Pages using Material for MkDocs*
 - [Couleur Tweak Tips Ongoing Projects](https://github.com/couleur-tweak-tips) *Couleur Tweak Tips Ongoing Projects*
-- []() **
+- [KMS_VL_ALL_AIO](https://raw.githubusercontent.com/abbodi1406/KMS_VL_ALL_AIO/master/KMS_VL_ALL_AIO.cmd) *Right click this link and save as KMS_VL_ALL_AIO.cmd. The BEST windows and office activator.*
+- [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) *A collection of utilities bringing back classic features to Windows.*
+- [QuickBoost](https://github.com/SanGraphic/QuickBoost) *Automated Windows 10 / 11 Tweaking Utility*
+- [QuickMon](https://github.com/RudolfHenning/QuickMon) *QuickMon is a simple monitoring and alerting tool. It allows you to monitor and alert on various resources/services locally or remotely.*
+- [Winaero Tweaker](https://winaerotweaker.com/) *It is an all-in-one application that comes with dozens of options for fine-grained tuning of various Windows settings and features*
+- [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) *The Sysinternals Troubleshooting Utilities have been rolled up into a single Suite of tools*
+- [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) *Process Explorer shows you information about which handles and DLLs processes have opened or loaded*
+- [Pegasun System Utilities](https://pegasun.com/system-utilities) *Maximize PC performance and battery life*
+- [Blackbird](https://www.getblackbird.net/) *Windows privacy, security and performance*
 
-#### 🗃️ Windows Files
-- [TechBench](https://tb.rg-adguard.net/public.php) *Get your windows and office ISOs here.*
-- [files](https://files.rg-adguard.net/) *List of files by Microsoft®*
+***
 
-#### 📦 Windows Package Managers
-- [Ninite](https://ninite.com/) *Install or Update Multiple Apps at Once*
-- [Chocolatey](https://chocolatey.org/) *The package manager for Windows*
+#### 🍙 Ricing Windows
+
+**ri • cing**
+
+*/ry-sing/*
+
+*making windows yours. tweaking & customising to fit your needs*
+
+!!! warning
+    **Don't forget to do your system restore points and backups often along with the registry, espescially with this section!**
+
+!!! note
+    I will be suggesting the stuff I did and like but at the end of this section I wil be posting resources to the best ricing guides and repos/indexes I found so go through them for a full understanding of what and how you can actully customise your windows. I highly recommend it.
+
+****[READ ME IF YOU HAVE NO IDEA WHAT YOU ARE DOING](https://pastebin.com/raw/mtgSWp42)****
+
+##### 💜 My Recommendations
+
+**First we will start of with the software you should have**
+
+- [Icaros](https://github.com/Xanashi/Icaros) *Icaros Shell Extensions: Icaros is a collection of lightweight, high quality, Windows Shell Extensions. Provide Windows Explorer thumbnails and properties for almost any file type!*
+- [7+ Taskbar Tweaker](https://tweaker.ramensoftware.com/) *Customize the Windows taskbar with dozens of exclusive options. Adapt the taskbar to your workflow, not the other way around.*
+- [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB?tab=readme-ov-file) *A lightweight utility that makes the Windows taskbar translucent/transparent.*
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) *This project aims to enhance the working environment on Windows*
+- [QTTabBar](http://qttabbar.wikidot.com/) *Adds a lot more functionality to Explorer, including tabs, hotkeys and alternative navigation panes. RATHER USE THE NEXT ONE:*
+- [QtTabBar](https://www.yuque.com/indiff/qttabbar) *QTTabBar is a small tool that allows you to use tab multi label function in Windows Explorer. [Githhub](https://github.com/indiff/qttabbar)*
+- [OldNewExplorer](https://msfn.org/board/topic/170375-oldnewexplorer-119/) *OldNewExplorer is the Windows 10 (and Windows 8.1, and 8) shell extension / tweaker which can undo "improvements" to file browsing made in newer Windows version. Everything is optional for your liking.*
+- [StartIsBack](https://startisback.com/) *Real start menu for Windows 8 and Windows 10. Start menu is back and it's better than ever. Get the most useful shell enhancement for Windows 10 now!*
+- [Volume²](https://github.com/irzyxa/Volume2) *advanced Windows volume control*
+- [Mouse Wheel Accelerator](https://sourceforge.net/projects/mwaccelerator/) *Mouse Wheel Accelerator improves the wheel scroll in windows towards dynamic smooth iPhone-like scrolling.*
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys) *Windows system utilities to maximize productivity*
+- [AutoHotkey](https://www.autohotkey.com/) *The ultimate automation scripting language for Windows.*
+Some of my AHK: [Custom-AutoHotkeys](https://github.com/Courage-1984/Custom-AutoHotkeys) *Custom AutoHotkeys for efficiency / productivity.*
+- [ClipClip](https://clipclip.com/) *clipboard management software for Windows*
+- [flux](https://justgetflux.com/) *makes the color of your computer's display adapt to the time of day*
+- [TeraCopy](https://www.codesector.com/teracopy) *Copy your files faster and more securely*
+- [Jocys-com Clock](https://www.jocys.com/Clock/) *Clock for WINDOWS*
+- [Mactype](https://www.dropbox.com/s/nyaxc8h1hb6lcx2/MacType.zip?e=2) *Better font rendering, includes version for W7 and W10 (also works on 8.1).*
+- [7-Zip](https://www.7-zip.org/) *file archiver with a high compression ratio*
+- [JDownloader 2](https://jdownloader.org/jdownloader2) *open-source download management tool*
+
+##### Windows Translucency:
+
+**A few things to make various parts of your Windows OS Translucent**
+
+- [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) *A lightweight utility that makes the Windows **taskbar** translucent/transparent.*
+- [TranslucentSM](https://github.com/rounk-ctrl/TranslucentSM) *A lightweight utility that makes the Windows **Start Menu** translucent/transparent*
+- [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) *Add custom effect to global system **title bar**, support win10 and win11.*
+- [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) *Add background Blur effect or Acrylic (Mica for win11) effect to **explorer** for win10 and win11.*
+- [TranslucentFlyouts](https://github.com/ALTaleX531/TranslucentFlyouts) *Translucent effect for most of the win32 **flyouts**.*
+- [Translucent Flyouts Config GUI](https://github.com/Satanarious/TranslucentFlyoutsConfig) *A configuration GUI for Translucent Flyouts*
+
+##### Cursor:
+
+- [Mac Mouse Pointer Guide](https://www.intowindows.com/download-mac-mouse-cursor-for-windows-10/) *How To Get Mac Mouse Pointer (Cursor)*
+- [macOS Sierra Retina cursors](https://www.deviantart.com/in-dolly/art/macOS-Sierra-Retina-cursors-650823654) *macOS Sierra Retina cursors*
+- [ElCapitan cursors](https://www.deviantart.com/in-dolly/art/Updated-ElCapitan-cursors-593804414) *Updated ElCapitan cursors*
+**ElCapitan cursors is smaller but the macOS Sierra Retina cursors is much cleaner!**
+- [Apple Cursor](https://github.com/ful1e5/apple_cursor?tab=readme-ov-file) *Free & Open source macOS Cursors.*
+- [macOS Cursors Megapack for Windows](https://github.com/antiden/macOS-cursors-for-Windows?tab=readme-ov-file) *Tested in Windows 10 & 11, 4K (125%, 150%, 200%). With 2 versions, 2 types and 3 different sizes!*
+- [Modern Inverted Mouse Cursors for Windows](https://github.com/emvaized/modern_inverted_mouse_cursors) *Modern Inverted Mouse Cursors for Windows - This project aims to recreate standard inverted mouse cursors in Windows 10/11 with a more modern design*
+- [Adwaita cursors for HiDPI displays](https://github.com/manu-mannattil/adwaita-cursors) *Adwaita cursors for HiDPI displays - GNOME's Adwaita cursor theme in sizes 24, 30, ..., 96 and custom colors*
+- [Open Cursor Library](http://www.rw-designer.com/) *This library contains computer mouse cursors for Microsoft Windows systems. - 182220 cursors*
+- [Open Cursor Library - 182220 cursors](http://www.rw-designer.com/cursor-library) *Open Cursor Library - 182220 cursors*
+- [Cursor Editor](https://www.cursor.cc/?) *A Cursor Editor for those custom cursors of yours.*
+
+##### Font:
+
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) *A free and open source typeface for developers*
+- [Google Fonts](https://fonts.google.com/) *Browse Fonts*
+- [FontSpace](https://www.fontspace.com/) *Free Fonts | 120,000+ Font Downloads*
+- [DaFont](https://www.dafont.com/) *Download fonts*
+
+**I have not yet gotten into themes and wallpapers but I have some links for y'all and don't forget the ricing guides at the end of this section!**
+
+##### Misc:
+
+- [WINDOWSCUSTOMIZATION](https://windowscustomization.com/) *Shape your computer beautifully - Themes, Icons, Cursors, Wallpapers, Rainmeter & Miscellaneous.*
+- [7themes-su](https://7themes.su/) *OS Windows Themes, Skins, Icons, Wallpaper, Cursors & Miscellaneous.*
+- [VSTHEMES](https://vsthemes.org/en/) *Windows Design - Customize Desktop - Themes, Wallpapers, Skind, Icons, Cursors, Programs, Articles, etc*
+- [Discover Customization on DeviantArt](https://www.deviantart.com/topic/customization) *Download custom skins and assets to personalize your day-to-day tools and applications.*
+- [Explore Windows10](https://www.deviantart.com/tag/windows10) *Explore the Best Windows10 Art & Themes.*
+- [Dracula](https://draculatheme.com/) *One theme. All platforms.*
+- [Catppuccin Theme](https://github.com/catppuccin) *Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes.*
+- [Aura Theme](https://github.com/daltonmenezes/aura-theme) *A beautiful dark theme for your favorite apps.*
+- [themer](https://themer.dev/) *development environment theme creator*
+- [Theme Studio](https://themes.vscode.one/) *Create Your Own VS Code Themes*
+- [terminal-sexy](https://terminal.sexy/) *Terminal Color Scheme Designer*
+- [TerminalSplash](https://terminalsplash.com/) *Windows Terminal Themes*
+- [Windows Terminal Themes](https://windowsterminalthemes.dev/) *Windows Terminal Themes*
+
+##### 🌐 Ricing Guides & Indexes
+
+- [ri • cing](https://www.ricing.chloechantelle.com/) *A nice, short and sweet ricing guide. The one that started this journey of discovering ricing for me!*
+- [nanami-tan](https://namazso.github.io/nanami-tan/) *In-depth Ricing resource and index of helpful links.* [Github Repo](https://github.com/namazso/nanami-tan/)
+- [The Windows Theming Wiki](https://github.com/winthemers/wiki) *Guides you need to start your windows ricing journey.*
+- [Windows Ricing](https://ninjasr.heliohost.org/w/lb/windows) *Ricing (customizing) Windows.*
+- [WINDOWS 10 RICING](https://github.com/DavidRela/riceWindows) *Windows 10 Ricing Guide - Tools, tutorials, and resources to get the best possible experience on a Microsoft Windows based system.*
+- [list o' resources](https://rizonrice.github.io/resources) *Ricing resources for Linux, Mac and Windows.*
+- [FMHY Themes / Ricing](https://fmhy.net/system-tools#themes-ricing) *FMHY Themes / Ricing*
+- [winthemers](https://winthemers.github.io/) *winthemers is a community dedicated to customizing windows.* [Github Repo](https://github.com/winthemers)
+- [r/ricing](https://www.reddit.com/r/ricing/) *This reddit is intended to be a central resource to help users get started with desktop customization*
+- [The Ricing Guide - Linux](https://nam.is-a.dev/blog/ricing/) *The Ricing Guide - Linux*
 
 ***
 ### ->  ⚙️ PC Software <-
@@ -556,6 +712,7 @@ cell   | cell
 - [Diarium](https://diariumapp.com/) *Cross-platform diary & journal app*
 - [Executable Masquerading](https://github.com/idfp/masquerade?tab=readme-ov-file) *Spearphishing tools, generate masqueraded pocket executable*
 - [Katana-ds (dork scanner)]() *Python Tool that gives you the ability to run Advanced Google Queries (Known as Google Dorks - Google Dorking)*
+- [Hyper™](https://hyper.is/) *Terminal*
 - []() **
 
 #### 📓 Software Guides
@@ -625,7 +782,6 @@ cell   | cell
 - [Download GitHub directory](https://download-directory.github.io/) *This tool will handle the download of all the files in a directory, in a single click, after you entered your token.*
 - [GeoSpy](https://geospy.web.app/) *Take a picture or select an existing one. GeoSpy will try to locate where it was taken.*
 - [CyberChef](https://gchq.github.io/CyberChef/) *web text editor and forensics tools*
-- []() **
 - [Riseup Pad](https://pad.riseup.net/) *free online document collaboration*
 - [A better zip bomb](https://www.bamsoftware.com/hacks/zipbomb/) *actually useful zip bomb*
 - [BrowserBench](https://browserbench.org/) *Browser Benchmarks - web browser benchmark*
@@ -639,6 +795,8 @@ cell   | cell
 - [BeepBox](https://www.beepbox.co/) *open source in-browser simple chiptune daw*
 - [myNoise ®](https://mynoise.net/noiseMachines.php) *Background Noises • Ambient Sounds • Relaxing Music*
 - [Virtual x86 (debug)](https://copy.sh/v86/debug.html) *in-browser x86 virtual machine*
+- [Free URL Shortener](https://free-url-shortener.rb.gy/) *Free URL Shortener*
+- [iLovePDF](https://www.ilovepdf.com/) *Online PDF tools for PDF lovers*
 - []() **
 
 #### 🔑 Check Password/Email Leaks
@@ -653,6 +811,7 @@ cell   | cell
 - [FreeConvert](https://www.freeconvert.com/) *Easily convert files from one format to another, online.*
 - [Converter365](https://www.converter365.com/) *Free online converter for 1000+ formats*
 - [File Converter](https://file-converter.io/) *Convert & compress everything in 2 clicks!*
+- [LetsConvert](https://letsconvert.io/) *LetsConvert - Online Converter - Your File Converter*
 
 #### 📚 Article + Paywall Bypass
 - [Webpage archive](https://archive.is/) *Archive.today is a time capsule for web pages!*
@@ -685,6 +844,7 @@ cell   | cell
 - [opendirsearch](https://opendirsearch.abifog.com/) *Open Directory Search Tool*
 - [TinEye Reverse Image Search](https://tineye.com/) *Find where images appear online.*
 - [Copyseeker](https://copyseeker.net/) *The Best Free AI Powered Reverse Image Search Like No Other*
+- [Google Images](https://images.google.com/imghp?hl=en) *Google Images*
 - [WebSitesSearch](https://web-sites-search.web.app/) *Search many sites all at once.*
 - []() **
 
@@ -745,8 +905,9 @@ cell   | cell
 
 #### -> 🤖 AI <-
 
-##### Index
+##### Index / Directory
 
+- [BasedTools](https://www.basedtools.ai/) *The Most Based Place To Find AI Tools & Products*
 - [600+ AI Tools](https://docs.google.com/spreadsheets/d/1v0F5cxAhj-Dy0lnd1J9rS9Y5nx_1W9q_/edit?pli=1#gid=1143930263) *Google sheet of 600+ AI Tools with categories and descriptions*
 
 ##### LLM and Related
@@ -765,6 +926,7 @@ cell   | cell
 
 ##### Image & Video Generation
 
+- [BasedLabs](https://www.basedlabs.ai/) *Based AI Image & Video Creator*
 - [AI Image Generator (free, no sign-up, unlimited)](https://perchance.org/ai-text-to-image-generator) *AI Image Generator (free, no sign-up, unlimited)*
 - [AI Video Thumbnail Generator (free, no sign-up, no limits) - Normal Image generator](https://perchance.org/ai-thumbnail-generator) *AI Video Thumbnail Generator (free, no sign-up, no limits) - Normal Image generator*
 - [Free NSFW AI Generator (free, no sign-up, no limits)](https://perchance.org/free-nsfw-ai-generator) *Free NSFW AI Generator (free, no sign-up, no limits)*
@@ -784,51 +946,6 @@ cell   | cell
 ##### Audio Generation
 - [Stable Audio](https://www.stableaudio.com/) *Generative AI for music & sound fx*
 - []() **
-
-#### -> 🔧 Other Lists of Online Tools <-
-
-##### 🧰 Tool Hubs
-
-!!! info
-    The following hubs/lists are curated for Developers and Designers but even if that's not you, you still might find something awesome!
-
-Description | URL
------- | ------
-WebDevHub `NOT WORKING LAST I CHECKED`   | https://webdevhub.herokuapp.com/
-Addy's Toolkit • Web Dev & Design Resources – Curated tools & resources for people who make websites   | https://toolkit.addy.codes/
-List Of Tools For Web Developers - Isotropic   | https://isotropic.co/isotropic-tools/
-84+ Curated Web Dev Tools 2021 - InTab   | https://intab.io/resources/
-Free for developers   | https://free-for.dev/#/
-Track Free for Dev (ripienaar/free-for-dev) Updates Daily - Track Awesome List   | https://www.trackawesomelist.com/ripienaar/free-for-dev/
-Free Developer Stuff   | https://freestuff.dev/
-Handy Tools and Apps for Designers - Awwwards   | https://www.awwwards.com/awwwards/collections/tools-apps-platforms-worth-trying/
-GitHub - ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev   | https://github.com/ripienaar/free-for-dev
-GitHub - bradtraversy/design-resources-for-developers: Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more   | https://github.com/bradtraversy/design-resources-for-developers
-Curating the web for developers, designers, makers, and creatives - SaaS Surf   | https://saassurf.com/
-Find Open Source By Searching, Browsing and Combining 174,966 Topics Across 59 Categories And 6,024,846 Projects   | https://awesomeopensource.com/
-GitHub - goabstract/Awesome-Design-Tools: The best design tools and plugins for everything 👉   | https://github.com/goabstract/Awesome-Design-Tools
-HERE's a list of free platforms you need for your next project! : web_design   | https://www.reddit.com/r/web_design/comments/uq18cp/heres_a_list_of_free_platforms_you_need_for_your/
-HERE’s a list of free platforms you need for your next project! (Part-2) : web_design   | https://www.reddit.com/r/web_design/comments/wa3q65/heres_a_list_of_free_platforms_you_need_for_your/
-Cell   | Cell
-
-##### ⌨️ Lists of Resources for Developers & Designers
-
-!!! info
-    This is similar to the above entry but focuses more on **Resources**.
-
-Description | URL
------- | ------
-70 Design Resources for Developers   | https://dev.to/codewell/70-design-resources-for-developers-34fm
-100+ Free Resources for Designers and Developers   | https://wpacademy.pk/free-resources-for-designers-and-developers/
-50 New Resources and Tools for Developers and Designers   | https://speckyboy.com/50-new-resources-and-tools-for-developers-and-designers/
-The Ultimate List of Web Development Resources for Designers & Developers   | https://medium.com/web-development-resources/the-ultimate-list-of-web-development-resources-for-designers-developers-616f4547802e
-Extensive List of Best Development Resources - 121 Links to Guides, Cheat Sheets and More List of Resources   | https://www.perssondennis.com/articles/extensive-list-of-best-development-resources-121-links-to-guides-cheat-sheets-and-more-list-of-resources
-42 Fresh Tools And Resources for Developers And Designers   | https://www.smashingapps.com/42-fresh-tools-and-resources-for-developers-and-designers/
-A Collaborative List Of 700+ Resources For Developers   | https://devresourc.es/
-Top Free Resources for Developers   | https://zerotomastery.io/resources/
-100+ Web Development Resources & Best Tools For Developers in 2024   | https://www.websiterating.com/resources/top-100-web-development-resources/
-A (Big) List of Resources for Developers   | https://dev.to/jacobherrington/a-list-of-resources-programmers-4gmn
-Cell   | Cell
 
 ***
 ### -> 💾 Saving Digital Legacy <-
@@ -858,6 +975,11 @@ Cell   | Cell
 - [Champagne Piracy Wiki](https://champagne.pages.dev/)
 - [Firehawk52 Guide - Saving Digital Legacy](https://rentry.org/firehawk52)
 - [Esoterica Avenue](https://ori5000.github.io/)
+- [Snackbox](https://thewiki.moe/) *Welcome to the wiki for all things related to anime and more, ranging from easy to digest tutorials to full blown guides!*
+- [Anime Index](https://theindex.moe/) *The Anime Index is an index listing and comparing all different types of websites, applications, and services for consuming Japanese media.*
+- [Wotaku](https://wotaku.moe/) *Wotaku - The Otaku Index - A diverse range of resources related to japanese media and language* [github](https://github.com/anotherduckling/Wotaku)
+- [Sneedex](https://sneedex.moe/) *We track the best releases of anime torrents; taking video, audio, and subtitle quality into consideration.*
+- [trace-moe](https://trace.moe/) *Anime Scene Search Engine*
 - [Full Guide About What Sites Are Safe/Not Safe To Download Content](https://rentry.org/EsotericaSiteList)
 - [Pirated Games Mega Thread](https://rentry.org/pgames/)
 - [privateersclub/wiki](https://megathread.pages.dev/)
@@ -868,9 +990,98 @@ Cell   | Cell
 - [Slav Art Beginner Information](https://rentry.org/slavart)
 - [Divolt-xyz Discover](https://rentry.org/divolt)
 - [iFixit](https://www.ifixit.com/) *The Free Repair Manual*
+- [016622-xyz GFE](https://016622.xyz/) *GFE - Guides for everyone - 016622-xyz - Dive into the world of digital freedom - Sailing the Digital Tides of Piracy* [[1](https://016622.pages.dev/)] - [[2](https://016622.vercel.app/)] - [[3](https://016622.netlify.app/)]
 - []() **
 
-#### 4. Subreddits
+#### 4. Adblocking / Privacy / Filter Lists
+
+For a full list of "**Adblocking, Privacy, VPN's, Proxies, Antivirus**" visit: [FMHY Adblocking / Privacy](https://fmhy.net/adblockvpnguide)
+
+##### Extensions
+
+**Note: It is a MUST to have either of the first two, either "uBlock Origin (uBO)" OR "AdNauseam".**
+
+- [uBlock Origin (uBO)](https://github.com/gorhill/uBlock) *An efficient content & ad blocker*
+- [AdNauseam](https://adnauseam.io/) *(Built on top of "uBlock Origin") obfuscate browsing data and protect users from tracking by advertising networks*
+- [ClearURLs](https://github.com/ClearURLs/Addon) *ClearURLs is an add-on based on the new WebExtensions technology and will automatically remove tracking elements from URLs to help protect your privacy.*
+- [Bypass Paywalls Clean](https://github.com/bpc-clone/bpc_updates) *Extension allows you to read articles from (supported) sites that implement a paywall.*
+- [I still don't care about cookies](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) *Debloated fork of the extension "I don't care about cookies"*
+
+##### Recommended Settings
+
+Open your adblocker(uBlock/AdNauseam) settings page and navigate to the "Filter Lists" tab:
+
+![Filter Lists Recommended Settings](https://raw.githubusercontent.com/Courage-1984/Adblocking-Privacy-Filter-Lists/main/Filter%20Lists%20Recommended%20Settings.png)
+
+##### Filter Lists: How to add
+
+1. Open your adblocker(uBlock/AdNauseam) settings page.
+2. Navigate to the "Filter Lists" tab.
+3. Scroll to the bottom and click on "Import".
+4. Paste(one per line) the urls to your chosen Filter List .txt file(the RAW file).
+5. Once done, click on "Apply Changes" at the top.
+6. You can update the built in settings and your own imports by clicking the clock icon next to them.
+
+##### Start with
+
+Some sources/guides to get you started
+
+- [yokoffing's Recommended Filters](https://github.com/yokoffing/filterlists) *Collection of blocklists to fill in the gaps*
+- [FMHY Adblock Filters](https://fmhy.net/adblockvpnguide#adblock-filters) *FMHY Recommended Adblock Filters*
+- [Filter Stalker](https://rentry.co/FilterStalker) *@LukeThighStalker's Filter List*
+- [OISD - Domain Blocklist](https://oisd.nl/) *The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads, decreases the risk of malware, and enhances privacy.*
+
+##### Other Filter Lists Providers/Hubs/Collections
+
+These are nice to know
+
+**Official:** (these should be covered in your adblocker(uBlock/AdNauseam) if your settings is turned on for them)
+
+- [uAssets](https://github.com/uBlockOrigin/uAssets) *Resources for uBlock Origin, uMatrix: static filter lists, ready-to-use rulesets, etc.*
+- [EasyList / EasyPrivacy / Fanboy Lists](https://github.com/easylist/easylist) *EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List)*
+- [AdGuard Filters](https://github.com/AdguardTeam/AdguardFilters) *AdGuard Content Blocking Filters*
+
+**Community:**
+
+- [DandelionSprout's ADFILT](https://github.com/DandelionSprout/adfilt) *The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really*
+- [hagezi's DNS Blocklists](https://github.com/hagezi/dns-blocklists) *DNS-Blocklists: For a better internet - keep the internet clean!*
+- [iam-py-test's My filters](https://github.com/iam-py-test/my_filters_001) *My filter lists - feel free to add these lists to uBlock Origin*
+- [liamengland1's miscfilters](https://github.com/liamengland1/miscfilters) *liamengland1's Miscellaneous Filters*
+- [knapah's uBlock Origin Filter list](https://github.com/knapah/uBlockOrigin-Filterlist) *A curated list of adblock filters for various purposes. This list includes filters for ad and tracker blocking, anti-anti-adblock, anti-Facebook, anti-paywall, and more.*
+
+##### My Top Recommended Filter Lists
+
+These are my top Recommended Filter Lists to import in your adblocker(uBlock/AdNauseam). 
+
+These links are to where the Filters Lists are located, click the "Raw" button just top right of the file contents to get the link to the RAW .txt file. (If the link is to a repo just follow the instructions or look for the .txt Filter List file in the repo at the top of the page)
+
+adblocker settings page > Filter Lists tab > Scroll to bottom > click "Import" > add the links to the RAW .txt files one per line > click "Apply Changes" at the top
+
+- [Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt) *In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.*
+- [FMHY Filterlist](https://github.com/WindowsAurora/FMHYFilterlist/) *FMHY Filterlist, Blocks Unsafe Sites listed in unsafe sites.*
+- [FMHY Filterlist](https://windowsaurora.github.io/FMHYFilterlist/site/index.html) *This filterlist blocks unsafe sites listed in the [unsafe sites list](https://fmhy.net/unsafesites).*
+- [Hide YouTube Shorts List](https://github.com/gijsdev/ublock-hide-yt-shorts) *A uBlock Origin filter list to hide all traces of YouTube shorts videos.*
+- [oisd big](https://big.oisd.nl/) *Block. Don't break.*
+- [privateersclub's FMHY Unsafe Sites/Software](https://github.com/privateersclub/wiki/blob/master/unsafe_uBlock.txt) *privateersclub's FMHY Unsafe Sites/Software*
+- [ClearURLs for uBo](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo) *Want to use ClearURLs' tracking protection without installing another extension? This list is a (unofficial) version of the ClearURLs rules, designed for use in uBlock Origin and AdGuard. This ONLY includes the URL parameter removal functionality from ClearURLs, and not the other functions.*
+
+##### Other Recommended Filter Lists
+
+Same instructions as the previous "My Top Recommended Filter Lists"
+
+- [HaGeZi's The World's Most Abused TLDs](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) *The Top Most Abused Top Level Domains, merged from HaGeZi, Yokoffing, DandelionSprout and SpamHAUS*
+- [The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt) *This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.*
+- [Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) *This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.*
+- [Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt) *Are you tired of being nagged on by websites, that say "Log in to read more"? With this list, you'll be much less nagged on from now own.*
+- [Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt) *Filters for news websites, including filters to defuse paywalls, subscription/newsletter nags, annoying modals, anti-adblock, and empty ad spaces on news websites*
+- [HaGeZi's Pro mini DNS/Browser Blocklist](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) *Size-optimised version for DNS/Browser adblockers. This list only contains domains from the Pro full that have been found on Top 1M lists (Umbrella, Cloudflare, Tranco, Chrome, ...) in the last 12 months.*
+- [yokoffing's Annoyance List](https://github.com/yokoffing/filterlists/blob/main/annoyance_list.txt) *Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists*
+- [Web Annoyances Ultralist - unsuck the web!](https://github.com/yourduskquibbles/webannoyances) *Fix and remove annoying web elements such as sticky headers, floating boxes, floating videos, dickbars, social share bars and other distracting elements.*
+- [NoADS_RU](https://github.com/Zalexanninev15/NoADS_RU) *list for blocking elements on Russian-language, and not only, sites*
+- [yokoffing's click2load filters](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) *click2load filters*
+- [Block third party fonts](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) *Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.*
+
+#### 5. Subreddits
 
 [**r/Piracy**](https://www.reddit.com/r/Piracy/)
 - [index](https://www.reddit.com/r/Piracy/wiki/index/)
@@ -884,7 +1095,7 @@ Cell   | Cell
 - [backups](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups/)
 - [updates](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/)
 
-#### 5. Media / Data Rippers
+#### 6. Media / Data Rippers
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) *A youtube-dl fork with additional features and fixes. Download Videos from a wide range of sites. Check out my guide at the bottom of the page.*
 - [FFmpeg](https://ffmpeg.org/) *A complete, cross-platform solution to record, convert and stream audio and video.*
@@ -940,7 +1151,7 @@ Basic Tidal subscription required - 'pro' gui
 **SoundCloud rippers**
 - [scdl](https://github.com/flyingrub/scdl) *Soundcloud Music Downloader*
 
-#### 6. Archives
+#### 7. Archives
 
 - [Internet Archive](https://archive.org/) *Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.*
 - [Wayback Machine](http://web.archive.org/) *Explore more than 860 billion web pages saved over time.*
@@ -953,26 +1164,33 @@ Basic Tidal subscription required - 'pro' gui
 - [Coursewikia](https://coursewikia.com/tutorials/) *Tutorials Archives*
 - []() **
 
-#### 7. TORRENTS
+#### 8. TORRENTS
 
 !!! note
     **NOTE:** These torrent site links are just for quick and easy access, I suggest you go through the previous "Start Here" and "Guides" sections to know which sites are safe and which sites to visit for what content!
 
-- [YTS](https://yts.mx/) *The Official Home of YIFY Movies Torrent Download*
-- [piratebay-proxylist](https://piratebay-proxylist.com/) *List of piratebay proxy's.*
-- [RuTracker](https://rutracker.org/forum/index.php) *Russian torrent site*
-- [1377x](https://www.1377x.to/) *Download torrents. 1377x.to*
-- [TorrentGalaxy](https://torrentgalaxy.to/) *Torrents*
-- [GloDLS](https://glodls.to/home.php) *Download Movies, TV, Games and Other Torrents Free*
-- [Nyaa](https://nyaa.si/) *Asian/Japanese/Anime torrents*
+See [FMHY Torrenting](https://fmhy.net/torrentpiracyguide) for an updated comprehensive list.
 
-#### 8. Scene Metadata Search Engine
+- [YTS](https://yts.mx/) *The Official Home of YIFY Movies Torrent Download (Movies)*
+- [piratebay-proxylist](https://piratebay-proxylist.com/) *List of piratebay proxy's. (Movies & TV Shows)*
+- [RuTracker](https://rutracker.org/forum/index.php) *Russian torrent site (Software) (Video / Audio / Games / Software / Android / Comics / Magazines)*
+- [1337x](https://1337x.to/) *Torrent Search Engine | 1337x.to (Movies & TV Shows) (Video / Audio / NSFW)*
+- [Nyaa](https://nyaa.si/) *Asian/Japanese/Anime torrents (Anime)*
+- [TorrentGalaxy](https://torrentgalaxy.to/) *Torrents (Video / Audio / NSFW)*
+- [GloTorrents](https://glodls.to/home.php) *Download Movies, TV, Games and Other Torrents Free (Video / Audio / Books / NSFW)*
+- [Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:0led5tukccj#gsc.tab=0) *Programmable Search Engine (Multi Site Search)*
+- [MagnetDL](https://www.magnetdl.com/) *Search Magnet/Torrent Links : MagnetDL (Video / Audio / Books)*
+- [LimeTorrents](https://www.limetorrents.lol/) *LimeTorrents - Download Verified Torrents (Video / Audio / Books)*
+- []() * ()*
+
+#### 9. Scene Metadata Search Engine
 
 - [PreDB](https://predb.me/) *Scene release metadata search engine.*
 - [srrDB](https://www.srrdb.com/) *srrDB is an historical record of the warez scene.*
 - [pouët](https://www.pouet.net/) *your online demoscene resource*
+-[pre database](https://predataba.se/?tags=%5B%5D&pagination=0) *pre database*
 
-#### 9. Media / Data Sources
+#### 10. Media / Data Sources
 
 !!! note
     **NOTE:** Again, I suggest you go through the previous "Start Here" and "Guides" sections to know which sites are safe and which sites to visit for what content!
@@ -999,7 +1217,7 @@ Basic Tidal subscription required - 'pro' gui
 **Courses**
 - [Tutorials Archives - Courselala](https://courselala.com/tutorials/) *Tutorials Archives - Courselala*
 
-#### Paste & Host Services
+#### 11. Paste & Host Services
 
 !!! note
     Sites where you can host content for free just like this page.
@@ -1009,6 +1227,7 @@ Basic Tidal subscription required - 'pro' gui
 - [GitHub Pages](https://pages.github.com/) *Websites for you and your projects, hosted directly from your GitHub repository.*
 - [PasteHTML](https://pastehtml.com/) *The fastest & easiest HTML/TEXT hosting platfrom*
 - [Neocities](https://neocities.org/) *Create your own free website! Neocities is a commercial web hosting service for static pages.*
+- [nekoweb](https://nekoweb.org/) *Nekoweb is a free static website hosting service, created in 2022 2023 2024 by a group of coders, programmers and artists, passionate for the old web and personal websites.*
 - [Sparked Paste](https://paste.sparked.host/) *Paste Service*
 - [snowbin](https://paste.fmhy.net/) *Delightfully crafted pastebin with <3.*
 - [pasteheaven](https://pasteheaven.com/) *#1 paste tool*
@@ -1104,6 +1323,7 @@ quiteaplaylist   | Hidden/Deleted/Private videos in YouTube Playlists? Let's fin
 VideoMentions   | Search YouTube to find videos that mention your brand, your product, or the topics you care about.   | https://videomentions.com/search
 YTGREP   | Extract and Returns The Top Most Replay Times From Youtube Videos   | https://ytgrep.com/
 YouTube Data Tools   | This is a collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.   | https://ytdt.digitalmethods.net/
+Petit tube   | Watch Videos with basically no views   | https://petittube.com/
 Cell   | Cell   | Cell
 
 #### 📼 YouTube Channels
@@ -1141,7 +1361,7 @@ Cell   | Cell   | Cell
 [Correcting Your Music Content Matches](https://support.plex.tv/articles/correcting-your-music-content-matches/)
 
 ***
-### -> 💻 Dev Stuff <-
+### -> 💻 Developer Stuff <-
 
 #### 🏆 Best Fucking Site
 
@@ -1229,6 +1449,11 @@ Cell   | Cell   | Cell
 - [SS64 Command line reference](https://ss64.com/) *high quality command line reference*
 - [UX Design Roadmap](https://roadmap.sh/ux-design) *Step by Step guide to learn UX Design in 2024*
 - [Developer Roadmaps](https://roadmap.sh/roadmaps) *Developer Roadmaps*
+- [roadmap-sh](https://github.com/kamranahmedse/developer-roadmap) *Interactive roadmaps, guides and other educational content to help developers grow in their careers.*
+- [reSorcery](https://resorcery.pages.dev/) *Resources to become a self-taught Genius.*
+- [1 LOC](https://phuoc.ng/collection/1-loc/) *JavaScript utilities, in just One Line of Code!*
+- [Web Skills](https://andreasbm.github.io/web-skills/) *Web Skills*
+- [Nibbler](https://nibbler.insites.com/) *Nibbler - Test any website*
 - []() **
 
 #### -> 🖌️ Design Stuff <-
@@ -1243,7 +1468,91 @@ Cell   | Cell   | Cell
 - [seeklogo](https://seeklogo.com/?ref=seeklogo.net) *Vector Logos, PNG Images, Templates Free Download*
 - [Icon Ninja](https://www.iconninja.com/) *33350 vector icons and 700080 png icons for free download*
 - [iconfinder](https://www.iconfinder.com/) *8,300,000+ free and premium vector icons, illustrations and 3D illustrations*
+- [Tabler Icons](https://tablericons.com/) *4926 Open source free SVG icons. Highly customizable. No attribution required. For commercial use.*
+- [IcoFont](https://icofont.com/) *Download 2400+ Free, High-Quality Icons*
+- [IconScout](https://iconscout.com/unicons) *7,000+ Icons, Fonts, SVG, 3D Icons and Animated Icons with Unicons*
+- [Noun Project](https://thenounproject.com/) *Free Icons & Stock Photos for Everything*
+- [Flaticon](https://www.flaticon.com/) *14.6M+ Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS*
+- [SVG Repo](https://www.svgrepo.com/) *500.000+ Open-licensed SVG Vector and Icons*
+- [Google Fonts / Icons](https://fonts.google.com/icons) *Material Symbols & Icons*
+- [Pictogrammers](https://pictogrammers.com/library/mdi/) *Material Design Icons - Icon Library*
+- [iconmonstr](https://iconmonstr.com/) *Free simple icons for your next projec - Discover 4784+ free icons in 316 collections*
+- [Lordicon](https://lordicon.com/) *18,500+ Animated Icons*
+- [Game-icons](https://game-icons.net/) *4131 free SVG and PNG icons for your games or apps*
+- [Glyphs](https://x.withseismic.com/glyphs) *Copy & Paste Symbols*
+- [Sargam Icons](https://sargamicons.com/) *A Collection of 280+ Open-source Icons Devoted to Match Your Exquisite Designs*
+- [Humbleicons](https://humbleicons.com/) *free icons for your better UI*
+- [LDRS — UI Ball](https://uiball.com/ldrs/) *Free, open-source loaders and spinners for your next project.*
+- [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) *A collection of familiar, friendly, and modern emoji from Microsoft*
+- [Free Vector Art & Graphics](https://www.freevector.com/) *A World of Free Vector Art at Your Fingertips!*
+- [Vecteezy](https://www.vecteezy.com/) *Download Free Vectors, Images, Photos & Videos*
 - []() **
+
+#### -> 🗚 Fonts <-
+- [Google Fonts](https://fonts.google.com/) *Browse Fonts*
+- [FontSpace](https://www.fontspace.com/) *Free Fonts | 120,000+ Font Downloads*
+- [DaFont](https://www.dafont.com/) *Download fonts*
+- [Fontjoy](https://fontjoy.com/) *Generate font pairings in one click*
+- [What Font Is](https://www.whatfontis.com/) *Find any font from any image*
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) *A free and open source typeface for developers*
+- []() **
+
+#### -> 🖼️ Images <-
+- [Digital Inspiration](https://www.labnol.org/internet/find-free-images/24990/) *The Best Places to Find Free, High-Res Images for your Website*
+- [Pexels](https://www.pexels.com/) *Free Stock Photos, Royalty Free Stock Images & Copyright Free Pictures*
+- [Unsplash](https://unsplash.com/) *Beautiful Free Images & Pictures*
+- [Pixabay](https://pixabay.com/) *4.4 million+ Stunning Free Images to Use Anywhere*
+- [123RF](https://www.123rf.com/) *Stock Photos, Vectors and Royalty Free Images*
+- [Freepik](https://www.freepik.com/) *Create great designs, faster*
+- []() **
+
+#### -> 🏁 Patterns <-
+- [Tylify](https://tylify.app/) *Create seamless patterns in seconds*
+- [Basic Pattern Repository](https://patterns.helloyes.dev/) *Basic Pattern Repository - just SVG - for your delight!*
+- [Hero Patterns](https://heropatterns.com/) *Free repeatable SVG background patterns for your web projects*
+- [Get Waves](https://getwaves.io/) *Create SVG waves for your next design*
+- []() **
+
+#### -> 🧰 Hubs of Tools, Resources & Sites 🔧 <-
+
+!!! info
+    The following hubs/lists are curated for Developers and Designers but even if that's not you, you still might find something awesome!
+
+Description | URL
+------ | ------
+WebDevHub `NOT WORKING LAST I CHECKED`   | https://webdevhub.herokuapp.com/
+Addy's Toolkit • Web Dev & Design Resources – Curated tools & resources for people who make websites   | https://toolkit.addy.codes/
+List Of Tools For Web Developers - Isotropic   | https://isotropic.co/isotropic-tools/
+84+ Curated Web Dev Tools 2021 - InTab   | https://intab.io/resources/
+Free for developers   | https://free-for.dev/#/
+Track Free for Dev (ripienaar/free-for-dev) Updates Daily - Track Awesome List   | https://www.trackawesomelist.com/ripienaar/free-for-dev/
+Free Developer Stuff   | https://freestuff.dev/
+Handy Tools and Apps for Designers - Awwwards   | https://www.awwwards.com/awwwards/collections/tools-apps-platforms-worth-trying/
+GitHub - ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev   | https://github.com/ripienaar/free-for-dev
+GitHub - bradtraversy/design-resources-for-developers: Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more   | https://github.com/bradtraversy/design-resources-for-developers
+Curating the web for developers, designers, makers, and creatives - SaaS Surf   | https://saassurf.com/
+Find Open Source By Searching, Browsing and Combining 174,966 Topics Across 59 Categories And 6,024,846 Projects   | https://awesomeopensource.com/
+GitHub - goabstract/Awesome-Design-Tools: The best design tools and plugins for everything 👉   | https://github.com/goabstract/Awesome-Design-Tools
+HERE's a list of free platforms you need for your next project! : web_design   | https://www.reddit.com/r/web_design/comments/uq18cp/heres_a_list_of_free_platforms_you_need_for_your/
+HERE’s a list of free platforms you need for your next project! (Part-2) : web_design   | https://www.reddit.com/r/web_design/comments/wa3q65/heres_a_list_of_free_platforms_you_need_for_your/
+70 Design Resources for Developers   | https://dev.to/codewell/70-design-resources-for-developers-34fm
+100+ Free Resources for Designers and Developers   | https://wpacademy.pk/free-resources-for-designers-and-developers/
+50 New Resources and Tools for Developers and Designers   | https://speckyboy.com/50-new-resources-and-tools-for-developers-and-designers/
+The Ultimate List of Web Development Resources for Designers & Developers   | https://medium.com/web-development-resources/the-ultimate-list-of-web-development-resources-for-designers-developers-616f4547802e
+Extensive List of Best Development Resources - 121 Links to Guides, Cheat Sheets and More List of Resources   | https://www.perssondennis.com/articles/extensive-list-of-best-development-resources-121-links-to-guides-cheat-sheets-and-more-list-of-resources
+42 Fresh Tools And Resources for Developers And Designers   | https://www.smashingapps.com/42-fresh-tools-and-resources-for-developers-and-designers/
+A Collaborative List Of 700+ Resources For Developers   | https://devresourc.es/
+Top Free Resources for Developers   | https://zerotomastery.io/resources/
+100+ Web Development Resources & Best Tools For Developers in 2024   | https://www.websiterating.com/resources/top-100-web-development-resources/
+A (Big) List of Resources for Developers   | https://dev.to/jacobherrington/a-list-of-resources-programmers-4gmn
+Best-websites-a-programmer-should-visit   | https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+DEV RESOURCES   | https://github.com/marcelscruz/dev-resources
+Inspire - Collection of frontend dev and web design links 💡   | https://github.com/noahbuscher/Inspire
+Developer Tools and Resources   | https://github.com/IliasHad/Developer-Tools-and-Resources
+Resources for Web Developers and Designers   | https://gist.github.com/kevinwhoffman/4d11879c75977753085d3a65eccde953
+Design Resources For Developers   | https://gist.github.com/mahendra0859/f887899a5899e4e757033e5791806f54
+Cell   | Cell
+
 
 ***
 ### -> 🌟 Interesting Stuff <-
@@ -1330,6 +1639,10 @@ Cell   | Cell   | Cell
 - [WebGL Fluid Simulation - Play with fluids in your browser (works even on mobile)](https://paveldogreat.github.io/WebGL-Fluid-Simulation/) - [Github](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
 - [jwz - cool ass blog and more](https://www.jwz.org/)
 - [BJAODN](https://bjaodn.org/wiki/Main_Page)
+- [WebGL Globe - Orbital Objects](https://www.alexras.info/code/orbital_objects/)
+- [V O I D](http://void.hi-res.net/)
+- [Find Your Pi Day](https://mypiday.com/)
+- []()
 
 ***
 ### -> 🇷 Subreddits <-
@@ -1415,21 +1728,6 @@ https://greasyfork.org/en/scripts/407459-patched-symbolab-pro
 	- Skim through the documentation [https://github.com/yt-dlp/yt-dlp#readme](https://github.com/yt-dlp/yt-dlp#readme) to learn about more features
 	- The following page/guide is also very useful: [https://www.mankier.com/1/yt-dlp](https://www.mankier.com/1/yt-dlp)
 
-Open the [visual guide](https://cdn.discordapp.com/attachments/872151238144315432/1041076520338333786/image.png?ex=65b55d90&is=65a2e890&hm=1340dd6d466563f04838fc488cc9d3ecb81704b88a66aaec7ffd667349d92e20&) in a new tab and have a look at it for extra guidance!
-
-***
-### -> `COMMING SOON:` <-
-
-### -> 🚣 Activities <-
-### -> 🗄️ Topics <-
-#### 🕸️ DeepWeb2.0
-#### 📶 VPN
-### -> 🍧 Link Dump <-
-### -> Recommended Games <-
-### -> Recommended Anime <-
-
-### -> NewSection <-
-### -> NewSection <-
-### -> NewSection <-
+Open the [visual guide](https://raw.githubusercontent.com/Courage-1984/yt-dlp-Guide/main/yt-dlp_visual_guide.png) in a new tab and have a look at it for extra guidance!
 
 ***
